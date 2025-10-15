@@ -1,0 +1,26 @@
+{
+  "Murrah": {
+    "length_to_height_ratio": 2.3,
+    "notes": "Popular Indian dairy buffalo"
+  },
+  "Surti": {
+    "length_to_height_ratio": 2.2,
+    "notes": "Smaller buffalo, Western India"
+  },
+  "Nili-Ravi": {
+    "length_to_height_ratio": 2.25,
+    "notes": "Punjab/Pakistan buffalo"
+  },
+  "Gir": {
+    "length_to_height_ratio": 2.1,
+    "notes": "Indian Gir cattle"
+  },
+  "Jersey": {
+    "length_to_height_ratio": 2.0,
+    "notes": "Small-medium international dairy breed"
+  },
+  "HF_cross": {
+    "length_to_height_ratio": 2.0,
+    "notes": "Holstein-Friesian crossbreed"
+  }
+}

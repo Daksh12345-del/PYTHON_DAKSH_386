@@ -1,0 +1,12 @@
+{
+  "animal_id": "NA",
+  "breed": "Nili-Ravi",
+  "measurements": {
+    "length_px": 696.6946167051792,
+    "height_px": 1364.2903804779053,
+    "ratio": 0.5106644645996331
+  },
+  "health_score": {
+    "score_value": 22.7
+  }
+}
