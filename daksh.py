@@ -1,3 +1,5 @@
 def welcome():
     print("Welcome to the import work module!")
-daksh=386
+print(__name__)
+if __name__=="__main__":
+    welcome()
