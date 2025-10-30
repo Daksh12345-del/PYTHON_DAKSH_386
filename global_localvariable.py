@@ -3,7 +3,7 @@ print (x)
 
 def hello():
     global x
-    x=7
+    x=7 #modifying global variable
     global y
     y=5#local variable
     print(f"The local y is still:{y}")
