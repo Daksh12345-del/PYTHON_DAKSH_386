@@ -1,4 +1,4 @@
-# l=[3,5,6,"Daksh",True,5.6,345,'ksh',234]
+l=[3,5,6,"Daksh",True,5.6,345,'ksh',234]
 # print(l)
 # print(type(l))
 # print(l[0])
@@ -7,6 +7,7 @@
 # print(l[3])
 # print(l[4])
 # print(l[5])
+
 
 # print(l[-3]) #negative indexing
 # print(l[len(l)-3]) #positive indexing
@@ -49,6 +50,7 @@ print(l)
 l.sort(reverse=True) #sort the list in descending order
 print(l)
 l.reverse() #reverse the list
+l.upper
 print(l)
 print(l.index(3)) #gives the index of the element
 print(l.count(1)) #count the occurence of the element
@@ -60,3 +62,7 @@ print(l)
 n=[7,8,9]
 l.extend(n) #extend the list by adding elements of another list
 print(l)
+X=['ab','cd']
+for i in X:
+    i.upper()
+print(X)

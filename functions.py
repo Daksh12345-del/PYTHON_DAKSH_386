@@ -27,3 +27,5 @@ def sum(a,b):
 a=int(input("Enter first number: "))
 b=int(input("Enter second number: "))
 print(sum(a,b))
+a=(1,2,3)
+del a
