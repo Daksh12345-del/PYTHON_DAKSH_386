@@ -1,27 +1,27 @@
 # #introduction to tuple
-# tuple=(1,5,6)
-# tuple1=(1,)
-# # tuple[0]=100  #it will give error as tuple is immutable
-# print(type(tuple),tuple)
-# print(type(tuple1),tuple1)#tuple with single element so we have to put comma after the element rather it will show type as int.
-# print(len(tuple))
-# print(tuple[0])
-# print(tuple[1])
-# print(tuple[2])
-# if 5 in tuple:
-#     print("YES")
+tuple=(1,5,6)
+tuple1=(1,)
+# tuple[0]=100  #it will give error as tuple is immutable
+print(type(tuple),tuple)
+print(type(tuple1),tuple1)#tuple with single element so we have to put comma after the element rather it will show type as int.
+print(len(tuple))
+print(tuple[0])
+print(tuple[1])
+print(tuple[2])
+if 5 in tuple:
+    print("YES")
 # tuple2=tuple[0:3] #slicing
 # print(tuple2)
 
 
-#operations on tuple
-# countries=("India","USA","China","Russia")
-# temp=list(countries) #converting tuple to list
-# temp.append("Nepal")
-# temp.pop(3) #removing element at index 3
-# temp[0]="Bhutan" #modifying element at index 0
-# countries= tuple(temp) #converting list back to tuple
-# print(countries)
+# operations on tuple
+countries=("India","USA","China","Russia")
+temp=list(countries) #converting tuple to list
+temp.append("Nepal")
+temp.pop(3) #removing element at index 3
+temp[0]="Bhutan" #modifying element at index 0
+a=tuple(temp) #converting list back to tuple
+print(a)
 
 
 countries=("India","USA","China","Russia","India","India")

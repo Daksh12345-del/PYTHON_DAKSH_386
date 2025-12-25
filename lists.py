@@ -1,5 +1,5 @@
-l=[3,5,6,"Daksh",True,5.6,345,'ksh',234]
-# print(l)
+# l=[3,5,6,"Daksh",True,5.6,345,'ksh',234]
+# # print(l)
 # print(type(l))
 # print(l[0])
 # print(l[1])
@@ -42,17 +42,15 @@ l=[3,5,6,"Daksh",True,5.6,345,'ksh',234]
 
 ##list method in python
 l=[11,66,45,69,1,2,3,4,1,1,1,]
-print(l)
-l.append(5) #add element at the end
-print(l) 
-l.sort() #sort the list in ascending order
-print(l)
-l.sort(reverse=True) #sort the list in descending order
-print(l)
-l.reverse() #reverse the list
-l.upper
-print(l)
-print(l.index(3)) #gives the index of the element
+# print(l)
+# l.append(5) #add element at the end
+# print(l) 
+# l.sort() #sort the list in ascending order
+# print(l)
+# l.sort(reverse=True) #sort the list in descending order
+# print(l)
+# l.reverse() #reverse the list
+# print(l.index(3)) #gives the index of the element
 print(l.count(1)) #count the occurence of the element
 m=l.copy()
 m[0]=0
