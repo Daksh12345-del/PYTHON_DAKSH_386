@@ -17,7 +17,20 @@
 #     #     break
 
 ##writeline method example
-f=open('file.txt1','w')
-lines=["This is first line\n","This is second line\n","This is third line\n"]
-f.writelines(lines) #writelines() - Writes a list of strings to a file.
-f.close()
+# f=open('file.txt1','w')
+# lines=["This is first line\n","This is second line\n","This is third line\n"]
+# f.writelines(lines) #writelines() - Writes a list of strings to a file.
+# f.close()
+# txt="hello, welcome to python programming."
+# txt=txt.capitalize()
+# print(txt)
+from turtle import mainloop
+import happy_new_year as hp
+
+2026= hp(title="Happy New Year 2026")
+
+2026.happiness = hp.Happiness(level="temporary")
+2026.sadness   = hp.Sadness(cause="carried_from_2025")
+2026.hope      = hp.Hope(enabled=True)
+2026.reality   = hp.Reality(force=True)
+2026.mainloop()

@@ -60,6 +60,8 @@ print(l)
 n=[7,8,9]
 l.extend(n) #extend the list by adding elements of another list
 print(l)
+l1="hello. world"
+print(l1.strip())
 X=['ab','cd']
 for i in X:
     i.upper()

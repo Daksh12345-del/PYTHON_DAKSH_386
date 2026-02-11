@@ -2,6 +2,7 @@
 #aur sets unorder bhi hota hai matlab ki jis order mein apne element diye hain wo order output mein nahi aayega
 s={2,4,6,2}
 print(s)
+print(type(s))
 
 info={"Carla",19,False,5.9,19}
 print(info)
